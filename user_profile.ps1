@@ -4,7 +4,7 @@
 Import-Module posh-git
 # Import-Module oh-my-posh 는 더 이상 사용하지 않음
 # Import-Module oh-my-posh
-$omp_config = Join-Path $PSScriptRoot ".\my.omp.json"
+$omp_config = Join-Path $PSScriptRoot ".\powerlevel10k_lean.omp.json"
 oh-my-posh init pwsh --config $omp_config | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
